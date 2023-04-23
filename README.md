@@ -185,26 +185,7 @@ In order to generate correlated defaults times using normal copula, a series of 
 (25)	 
 
 
-2.	FTD closed form solution 
+Reference:
 
-If we assume a homogeneous collateral pool ( ) and set the notional of the first tranche equal to  , the first tranche becomes a first-to-default (FTD) trade. 
-
-Within the one factor normal copula framework, this special FTD actually has a nice closed form solution. Instead of directly solving first default probability, we are interested in the probability that all names survive up to a particular point in time.
-
-The joint distribution for survival time can be defined as follows given the definition of survival copula:
-
-(26)	 .
-
-We can then write the hazard rate and default probability density function for the collateral pool as the following:
-
-(27)			 
-(28)			 					
-
-Then we treat this FTD trade just like a single name credit default swap (see https://finpricing.com/lib/FxAccumulator.html . Following this approach, the protection leg and fee leg have the forms.
-
-(29)		 .								
-
-(30)		 .			
-This closed form solution does not involve iteration hence can be used as a alternative model to check the iteration method.
-
+https://finpricing.com/aboutus.html
 
